@@ -1,0 +1,23 @@
+{
+  "name": "cypress-study",
+  "version": "1.0.0",
+  "description": "This is the main repository for all of the projects in the course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSH-data/Cypress-Study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSH-data/Cypress-Study/issues"
+  },
+  "homepage": "https://github.com/JSH-data/Cypress-Study#readme",
+  "dependencies": {
+    "cypress": "^12.1.0"
+  }
+}
