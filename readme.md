@@ -1,32 +1,23 @@
-# 20+ Web Projects With Vanilla JavaScript
+# Cypress Study
 
-This is the main repository for all of the projects in the course.
+JS 테스팅 라이브러리인 **Cypress**를 다양한 미니 프로젝트를 이용하여 공부합니다.
 
-- [Course Link](https://www.udemy.com/course/web-projects-with-vanilla-javascript/?referralCode=F9B7C7FED834F91ADE75)
-- [Course Info Website](https://vanillawebprojects.com)
+## 스터디 방법
 
-|  #  |            Project             | Live Demo |
-| :-: | :----------------------------: | :-------: |
-| 01  |       [Form Validator](https://github.com/bradtraversy/vanillawebprojects/tree/master/form-validator)       | [Live Demo](https://vanillawebprojects.com/projects/form-validator/)  |
-| 02  |     [Movie Seat Booking](https://github.com/bradtraversy/vanillawebprojects/tree/master/movie-seat-booking)    | [Live Demo](https://vanillawebprojects.com/projects/movie-seat-booking/)  |
-| 03  |    [Custom Video Player](https://github.com/bradtraversy/vanillawebprojects/tree/master/custom-video-player)     | [Live Demo](https://vanillawebprojects.com/projects/custom-video-player/)  |
-| 04  |  [Exchange Rate Calculator](https://github.com/bradtraversy/vanillawebprojects/tree/master/exchange-rate)  | [Live Demo](https://vanillawebprojects.com/projects/exchange-rate/)  |
-| 05  | [DOM Array Methods Project](https://github.com/bradtraversy/vanillawebprojects/tree/master/dom-array-methods)  | [Live Demo](https://vanillawebprojects.com/projects/dom-array-methods/)  |
-| 06  |    [Menu Slider & Modal](https://github.com/bradtraversy/vanillawebprojects/tree/master/modal-menu-slider)    | [Live Demo](https://vanillawebprojects.com/projects/modal-menu-slider/)  |
-| 07  |        [Hangman Game](https://github.com/bradtraversy/vanillawebprojects/tree/master/hangman)       | [Live Demo](https://vanillawebprojects.com/projects/hangman/)  |
-| 08  |       [Mealfinder App](https://github.com/bradtraversy/vanillawebprojects/tree/master/meal-finder)      | [Live Demo](https://vanillawebprojects.com/projects/meal-finder/)  |
-| 09  |      [Expense Tracker](https://github.com/bradtraversy/vanillawebprojects/tree/master/expense-tracker)       | [Live Demo](https://vanillawebprojects.com/projects/expense-tracker/)  |
-| 10  |        [Music Player](https://github.com/bradtraversy/vanillawebprojects/tree/master/music-player)       | [Live Demo](https://vanillawebprojects.com/projects/music-player/)  |
-| 11  |     [Infinite Scrolling](https://github.com/bradtraversy/vanillawebprojects/tree/master/infinite_scroll_blog)     | [Live Demo](https://vanillawebprojects.com/projects/infinite_scroll_blog/)  |
-| 12  |        [Typing Game](https://github.com/bradtraversy/vanillawebprojects/tree/master/typing-game)     | [Live Demo](https://vanillawebprojects.com/projects/typing-game/)  |
-| 13  |     [Speech Text Reader](https://github.com/bradtraversy/vanillawebprojects/tree/master/speech-text-reader)    | [Live Demo](https://vanillawebprojects.com/projects/speech-text-reader/)  |
-| 14  |        [Memory Cards](https://github.com/bradtraversy/vanillawebprojects/tree/master/memory-cards)     | [Live Demo](https://vanillawebprojects.com/projects/memory-cards/)  |
-| 15  |      [LyricsSearch App](https://github.com/bradtraversy/vanillawebprojects/tree/master/lyrics-search)     | [Live Demo](https://vanillawebprojects.com/projects/lyrics-search/)  |
-| 16  |        [Relaxer App](https://github.com/bradtraversy/vanillawebprojects/tree/master/relaxer-app)       | [Live Demo](https://vanillawebprojects.com/projects//relaxer-app/)  |
-| 17  |       [Breakout Game](https://github.com/bradtraversy/vanillawebprojects/tree/master/breakout-game)       | [Live Demo](https://vanillawebprojects.com/projects/breakout-game/)  |
-| 18  |     [New Year Countdown](https://github.com/bradtraversy/vanillawebprojects/tree/master/new-year-countdown)   | [Live Demo](https://vanillawebprojects.com/projects/new-year-countdown/)  |
-| 19  |       [Sortable List](https://github.com/bradtraversy/vanillawebprojects/tree/master/sortable-list)       | [Live Demo](https://vanillawebprojects.com/projects/sortable-list/)  |
-| 20  | [Speak Number Guessing Game](https://github.com/bradtraversy/vanillawebprojects/tree/master/speak-number-guess) | [Live Demo](https://vanillawebprojects.com/projects/speak-number-guess/)  |
+1.  Cypress_Study Repo를 자신의 Repo로 fork합니다.
 
+2.  fork된 Repo를 클론합니다.
 
-NOTE ON PULL REQUESTS: All of these projects are part of the course. While I do appreciate people trying to make some things prettier or adding new features, we are only accepting pull requests and looking at issues for bug fixes so that the code stays inline with the course
+        git clone ${url}
+
+3.  의존성을 설치합니다.
+
+        npm install
+
+4.  Cypress/e2e/${이름}폴더에 해당 주차에 정해진 스터디를 수행합니다.
+
+5.  수행된 프로젝트를 `master`로 PR 후 merge 합니다. (꼭 할 필요는 없습니다!)
+
+## 1주차 Form-validator 테스트
+
+- 간단한 [**유효성 검사기**](https://github.com/JSH-data/Cypress-Study/tree/master/form-validator) 를 테스트 합니다.
