@@ -277,7 +277,4 @@ describe("learn about locators", () => {
       })
   })
 
-//틀린 글자 입력 1개 ~ 5개
-
-
 })
